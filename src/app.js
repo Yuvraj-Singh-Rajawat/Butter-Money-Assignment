@@ -28,7 +28,6 @@ app.use("/api/v1", router);
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "✅ ok",
-    uptime: process.uptime(), // Current uptime of the Node.js process
     message: "🚀 API is healthy",
   });
 });

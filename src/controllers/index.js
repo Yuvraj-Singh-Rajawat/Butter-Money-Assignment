@@ -27,13 +27,11 @@ export const uploadFile = async (req, res) => {
     const host = req.get("host");
     const proto = req.get("x-forwarded-proto") || req.protocol;
     const fullUrl = `${proto}://${host}${urlPath}`;
-    const absolutePath = path.resolve(file.path);
 
     return res.status(201).json({
       message: "File uploaded",
       path: urlPath,
       url: fullUrl, 
-      absolutePath,
     });
   } catch (error) {
     logger.error("Upload error", error);
