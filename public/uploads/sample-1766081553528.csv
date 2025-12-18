@@ -1,0 +1,19 @@
+Id,Name,Age,Education
+5,John Doee,28,Bachelor
+6,Jane Smitha,34,Master
+7,Bad Agesdf,5,High School
+8,Yuvrajdsfsd,25,Diploma
+9,Valid User,22,Bachelor
+10,Missing Education,30,
+11,Whitespace Name,40,High School
+12,NonNumericAge,abc,Diploma
+13,ZeroAge,0,Certificate
+14,NegativeAge,-3,High School
+15,Long Name User With Extra Characters And Symbols !!!,29,Master
+5,Duplicate ID John,28,Bachelor
+16,Valid Two,18,Associate
+17,EmptyName,,Bachelor
+18,NullEducation,27,
+19,EdgeCaseAge,150,Doctorate
+20,Trailing Spaces , 33 , Bachelor
+
